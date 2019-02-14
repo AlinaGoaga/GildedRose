@@ -80,6 +80,10 @@
       ],
       "/Users/alinagoaga/Desktop/skills-workshops/week-10/GildedRose/lib/gilded_rose.rb": [
         1,
+        1,
+        1,
+        1,
+        1,
         null,
         1,
         1,
@@ -87,11 +91,27 @@
         null,
         null,
         1,
-        7,
-        9,
+        3,
+        null,
+        null,
+        1,
+        4,
+        4,
+        null,
         4,
         3,
-        2,
+        null,
+        4,
+        null,
+        null,
+        1,
+        7,
+        null,
+        9,
+        null,
+        4,
+        3,
+        null,
         null,
         null,
         null,
@@ -99,10 +119,6 @@
         4,
         4,
         3,
-        3,
-        null,
-        3,
-        2,
         null,
         null,
         null,
@@ -110,16 +126,19 @@
         9,
         8,
         null,
+        null,
+        null,
         9,
         2,
         2,
         1,
-        1,
+        null,
         1,
         null,
         null,
         null,
         1,
+        null,
         null,
         null,
         0,
@@ -143,8 +162,24 @@
         0,
         null,
         null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/GildedRose/lib/sulfuras.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/GildedRose/lib/brie.rb": [
+
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/GildedRose/lib/ticket.rb": [
+
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/GildedRose/lib/normal.rb": [
+
       ]
     },
-    "timestamp": 1550156406
+    "timestamp": 1550181001
   }
 }
