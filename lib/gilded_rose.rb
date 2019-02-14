@@ -29,17 +29,12 @@ class GildedRose
 
   def update_quality
     @items.each do |item|
-      # drop the quality by one for normal products (non tickets, brie, sulfuras)
       if (item.name != 'Aged Brie') && (item.name != 'Backstage passes to a TAFKAL80ETC concert')
-        if item.quality > 0
-          update_normal(item) if item.name != 'Sulfuras, Hand of Ragnaros'
-        end
+        update_normal(item) if item.name == 'Normal' && item.quality > 0
       else
         if item.quality < 50
           item.quality = item.quality + 1
-          if item.name == 'Backstage passes to a TAFKAL80ETC concert'
-            update_ticket(item)
-          end
+          update_ticket(item) if item.name == 'Backstage passes to a TAFKAL80ETC concert'
         end
       end
 
@@ -48,19 +43,11 @@ class GildedRose
       end
 
       # once the above adjustment happens, check if the sell in is negative
-      if item.sell_in < 0
-        if item.name != 'Aged Brie'
-          if item.name != 'Backstage passes to a TAFKAL80ETC concert'
-            if item.quality > 0
-              update_normal(item) if item.name != 'Sulfuras, Hand of Ragnaros'
-            end
-          else
-            update_ticket(item)
-          end
-        else
-          update_brie(item)
-        end
-      end
+      next unless item.sell_in < 0
+
+      update_normal(item) if item.name != 'Sulfuras, Hand of Ragnaros' && item.quality > 0
+      update_ticket(item) if item.name == 'Backstage passes to a TAFKAL80ETC concert'
+      update_brie(item) if item.name == 'Aged Brie'
     end
   end
 end
