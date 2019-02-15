@@ -1,5 +1,5 @@
 require 'item'
 
 class Sulfuras < Item
-  def update_sulfuras(item); end
+  def self.update_sulfuras(item); end
 end
