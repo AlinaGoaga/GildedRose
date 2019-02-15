@@ -12,7 +12,6 @@ describe GildedRose do
       expect(updated[0].sell_in).to eq 4
       expect(updated[0].quality).to eq 4
     end
-
     # “Sulfuras”, being a legendary item, never has to be sold or decreases in quality.
     it 'updates the quality of sulfur items' do
       sulfur = Item.new('Sulfuras, Hand of Ragnaros', 10, 5)

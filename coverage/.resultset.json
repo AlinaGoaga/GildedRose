@@ -17,7 +17,6 @@
         1,
         null,
         null,
-        null,
         1,
         1,
         1,
@@ -46,10 +45,12 @@
         1,
         1,
         1,
-        0,
-        0,
-        0,
-        0,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
         null,
         null,
         1,
@@ -133,6 +134,7 @@
       "/Users/alinagoaga/Desktop/skills-workshops/week-10/GildedRose/lib/ticket.rb": [
         1,
         1,
+        null,
         3,
         3,
         3,
@@ -151,6 +153,6 @@
         null
       ]
     },
-    "timestamp": 1550226391
+    "timestamp": 1550247462
   }
 }
