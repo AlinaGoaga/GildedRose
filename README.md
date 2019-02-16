@@ -1,4 +1,4 @@
-# Gilded rose tech test
+# Gilded rose tech test   <a href="https://codeclimate.com/github/AlinaGoaga/GildedRose/maintainability"><img src="https://api.codeclimate.com/v1/badges/62eee2ff725bfeaec39c/maintainability" /></a>
 
 ## My approach
 
