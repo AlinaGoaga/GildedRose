@@ -7,7 +7,8 @@
 - ```refactored slowly```, extracting products from the code
 - I initially kept all the methods in the same file after which they got split into ```different files each handling a different class of objects``` (ticket, brie, normal, sulfuras)
 - the individual product classes ```inherit``` from the Item class
-- as I went through the refactoring, after making a change I'd run the tests to make sure the code still worked
+- as I went through the refactoring, ```after making a change I'd run the tests to make sure the code still worked```
+- once I had reached a stage when I had working code split in classes which handled items, I continued to refactor to ```improve readability```
 
 ## Usage and testing
 
@@ -21,7 +22,7 @@ Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime
 
 Pretty simple, right? Well this is where it gets interesting:
 
-* Once the sell by date has passed, Quality degrades twice as fast
+* Once the sell by date has passed, Quality degrades twice as fast 
 * The Quality of an item is never negative
 * “Aged Brie” actually increases in Quality the older it gets
 * The Quality of an item is never more than 50

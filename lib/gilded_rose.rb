@@ -2,6 +2,7 @@ require 'sulfuras'
 require 'brie'
 require 'ticket'
 require 'normal'
+require 'conjured'
 
 class GildedRose
   def initialize(items)
