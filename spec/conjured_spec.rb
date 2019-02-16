@@ -15,7 +15,7 @@ describe Conjured do
       it 'updates the item by lowering the quality twice as fast' do
         conjured = Conjured.new('Conjured', -1, 8)
         conjured.update
-        expect(conjured.sell_in).to eq -2
+        expect(conjured.sell_in).to eq(-2)
         expect(conjured.quality).to eq 4
       end
     end

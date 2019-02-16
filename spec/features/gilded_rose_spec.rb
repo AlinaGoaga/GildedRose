@@ -2,7 +2,7 @@ require 'gilded_rose'
 
 describe GildedRose do
   describe '#update_quality' do
-    it 'updates the quality of differnt items' do
+    it 'updates the quality of different items' do
       normal = Normal.new('Normal', 5, 5)
       sulfur = Sulfuras.new('Sulfuras, Hand of Ragnaros', 10, 5)
       brie = Brie.new('Aged Brie', 9, 8)

@@ -15,7 +15,7 @@ describe Normal do
       it 'updates the item by lowering the quality twice as fast' do
         normal = Normal.new('Normal', 0, 5)
         normal.update
-        expect(normal.sell_in).to eq -1
+        expect(normal.sell_in).to eq(-1)
         expect(normal.quality).to eq 3
       end
     end

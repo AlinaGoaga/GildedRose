@@ -27,7 +27,7 @@ describe Ticket do
       it 'drops the quality to 0' do
         ticket = Ticket.new('Ticket', 0, 5)
         ticket.update
-        expect(ticket.sell_in).to eq -1
+        expect(ticket.sell_in).to eq(-1)
         expect(ticket.quality).to eq 0
       end
     end
@@ -37,7 +37,7 @@ describe Ticket do
     it 'is never becomes negative' do
       ticket = Ticket.new('Ticket', -1, 0)
       ticket.update
-      expect(ticket.sell_in).to eq -2
+      expect(ticket.sell_in).to eq(-2)
       expect(ticket.quality).to eq 0
     end
     it 'is never higher than 50' do
