@@ -11,5 +11,5 @@ class GildedRose
 
   def update_quality
     @items.each(&:update)
-end
+  end
 end
