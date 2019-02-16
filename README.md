@@ -38,3 +38,12 @@ Feel free to make any changes to the UpdateQuality method and add any new code a
 ### Legacy code
 
 ![Gilded Rose](https://github.com/AlinaGoaga/GildedRose/blob/master/images/gilded_rose.png)
+
+### Small example of running the program in ir
+
+![Example](https://github.com/AlinaGoaga/GildedRose/blob/master/images/gilded_rose_in_irb.jpeg)
+
+### Tests and coverage
+
+![Rspec output](https://github.com/AlinaGoaga/GildedRose/blob/master/images/running_rspec.jpeg)
+
