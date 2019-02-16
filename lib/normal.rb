@@ -1,15 +1,17 @@
+require 'item'
+
 class Normal < Item
-  def self.update(item)
-    sell_in(item)
-    quality(item)
+  def update
+    update_sell_in
+    update_quality
   end
 
-  def self.sell_in(item)
-    item.sell_in -= 1
+  def update_sell_in
+    @sell_in -= 1
   end
 
-  def self.quality(item)
-    item.quality -= 1 if item.quality > 0
-    item.quality -= 1 if item.quality > 0 && item.sell_in < 0
+  def update_quality
+    @quality -= 1 if @quality > 0
+    @quality -= 1 if @quality > 0 && @sell_in < 0
   end
 end

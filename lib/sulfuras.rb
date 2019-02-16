@@ -1,12 +1,12 @@
 require 'item'
 
 class Sulfuras < Item
-  def self.update(item)
-    sell_in(item)
-    quality(item)
+  def update
+    update_sell_in
+    update_quality
   end
 
-  def self.sell_in(item); end
+  def update_sell_in; end
 
-  def self.quality(item); end
+  def update_quality; end
 end
