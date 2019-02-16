@@ -6,6 +6,7 @@
 - ```wrote tests``` before starting the refactoring (coverage: 97%)
 - ```refactored slowly```, extracting products from the code
 - I initially kept all the methods in the same file after which they got split into ```different files each handling a different class of objects``` (ticket, brie, normal, sulfuras)
+- used the ```ternary operator``` whenever possible to make the IF statements easier to read
 - the individual product classes ```inherit``` from the Item class
 - as I went through the refactoring, ```after making a change I'd run the tests to make sure the code still worked```
 - once I had reached a stage when I had working code split in classes which handled items, I continued to refactor to ```improve readability```
