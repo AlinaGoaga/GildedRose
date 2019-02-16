@@ -40,7 +40,7 @@ describe GildedRose do
       rose = GildedRose.new([ticket1, ticket2, ticket3])
       updated = rose.update_quality
       expect(updated[0].sell_in).to eq 5
-      expect(updated[0].quality).to eq 10
+      expect(updated[0].quality).to eq 11
       expect(updated[1].sell_in).to eq 3
       expect(updated[1].quality).to eq 11
       expect(updated[2].sell_in).to eq -1

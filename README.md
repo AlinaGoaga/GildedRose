@@ -2,13 +2,14 @@
 
 ## My approach
 
-- first interacted with the app via irb to understand exactly how the code works
-- start writing tests before starting the refactoring (coverage: 97%)
-- refactored slowly, extracting products from the code
-- I initially kept all the methods in the same file after which they got split in different files each handling a different class of objects (ticket, brie, normal, sulfuras)
-- the individual product classes inherit from the Item class
-- the products are updated via the update_quality method in the gilded rose through the use of class methods
+- first ```interacted with the app via irb``` to understand exactly how the code works
+- ```wrote tests``` before starting the refactoring (coverage: 97%)
+- ```refactored slowly```, extracting products from the code
+- I initially kept all the methods in the same file after which they got split into ```different files each handling a different class of objects``` (ticket, brie, normal, sulfuras)
+- the individual product classes ```inherit``` from the Item class
 - as I went through the refactoring, after making a change I'd run the tests to make sure the code still worked
+
+## Usage and testing
 
 
 ## About the kata
@@ -29,5 +30,8 @@ Pretty simple, right? Well this is where it gets interesting:
 
 We have recently signed a supplier of conjured items. This requires an update to our system:
 
-“Conjured” items degrade in Quality twice as fast as normal items
+“Conjured” items degrade in Quality twice as fast as normal Items
+
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn’t believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we’ll cover for you).
+
+Legacy code
